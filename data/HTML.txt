@@ -1,0 +1,1 @@
+HTML: Standard markup language for creating webpages; uses tags to structure content, define layout, and embed media for browsers.

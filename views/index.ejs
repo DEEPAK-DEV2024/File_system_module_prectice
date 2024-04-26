@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-700">
+
+    <form class="p-10" method="post" action="/create">
+        <input type="text" name="title" placeholder="Title"
+            class="w-full mb-5 outline-0 border-black border rounded p-1 bg-gray-900 text-white">
+        <textarea name="description" placeholder="Description "
+            class="w-full mb-5 outline-0 border-black border rounded p-1 bg-gray-900 text-white"></textarea>
+
+        <button class="bg-black text-white bg-blue-500 px-10 py-2 rounded " type="submit">Submit</button>
+    </form>
+
+
+    <% if(files.length> 0){ %>
+        <div class="flex p-11 gap-10 flex-wrap">
+
+            <% files.forEach(file=> { %>
+                <div class="w-64 border p-5 rounded">
+                    <h1 class="text-3xl text-gray-400">
+                        <%= file %>
+                    </h1>
+
+
+                    <div class="flex mt-3 justify-between">
+                        <a href="/<%= file %>" class="text-blue-500 inline-block">Read More</a>
+
+                        <a href="/edit/<%= file %>" class="text-black inline-block">Edit Name</a>
+                    </div>
+                </div>
+                <% }); %>
+
+
+        </div>
+        <% } else {%>
+            <p class="text-center text-gray-400 text-3xl">Please Add Data</p>
+            <% }%>
+</body>
+
+</html>

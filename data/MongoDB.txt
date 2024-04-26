@@ -1,0 +1,1 @@
+MongoDB: A NoSQL database management system, using a document-oriented data model, providing flexibility, scalability, and high performance for modern applications.

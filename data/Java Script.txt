@@ -1,0 +1,1 @@
+JavaScript: A versatile scripting language for web development, enabling interactivity, dynamic content, and behavior manipulation within browsers and web applications.

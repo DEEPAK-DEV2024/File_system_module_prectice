@@ -1,0 +1,1 @@
+CSS: Cascading Style Sheets, a language used to style HTML elements, controlling layout, typography, colors, and visual presentation in web design.

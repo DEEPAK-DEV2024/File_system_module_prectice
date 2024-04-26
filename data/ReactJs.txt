@@ -1,0 +1,1 @@
+React.js: A JavaScript library for building user interfaces, utilizing a component-based architecture to create interactive and reusable UI components efficiently.

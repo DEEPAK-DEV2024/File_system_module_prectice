@@ -1,0 +1,1 @@
+Node.js: An open-source, server-side JavaScript runtime environment that enables executing JavaScript code outside of a browser, facilitating scalable and high-performance server applications.
